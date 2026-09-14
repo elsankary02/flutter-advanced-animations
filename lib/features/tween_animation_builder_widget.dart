@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
 
-class TweenAnimation extends StatefulWidget {
-  const TweenAnimation({super.key});
+class TweenAnimationBuilderWidget extends StatefulWidget {
+  const TweenAnimationBuilderWidget({super.key});
 
   @override
-  State<TweenAnimation> createState() => _TweenAnimationState();
+  State<TweenAnimationBuilderWidget> createState() =>
+      _TweenAnimationBuilderWidgetState();
 }
 
-class _TweenAnimationState extends State<TweenAnimation> {
+class _TweenAnimationBuilderWidgetState
+    extends State<TweenAnimationBuilderWidget> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
