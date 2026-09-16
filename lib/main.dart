@@ -1,4 +1,4 @@
-import 'package:animation/features/tween_animation_builder_widget.dart';
+import 'package:animation/features/animated_container_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +12,7 @@ class FlutterAdvancedAnimations extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const TweenAnimationBuilderWidget(),
+      home: const AnimatedContainerPage(),
     );
   }
 }

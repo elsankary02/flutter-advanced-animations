@@ -32,18 +32,6 @@ class _TweenAnimationBuilderWidgetState
     );
   }
 
-  // Widget containerWidget() => TweenAnimationBuilder(
-  //   tween: Tween<double>(begin: 100, end: 200),
-  //   duration: Duration(seconds: 1),
-  //   builder: (context, value, child) {
-  //     return Container(
-  //       height: value,
-  //       width: value,
-
-  //     );
-  //   },
-  // );
-
   Widget btnWidget() => ElevatedButton(
     onPressed: () {
       Navigator.push(
