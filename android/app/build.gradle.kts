@@ -46,4 +46,5 @@ kotlin {
 
 flutter {
     source = "../.."
+    target = file("../../lib/main.dart").absolutePath
 }
